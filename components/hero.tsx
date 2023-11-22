@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Footer from './ui/footer';
 
 export default function Hero() {
   return (
@@ -31,7 +32,7 @@ export default function Hero() {
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <Link href="/show">
-                  <p className="btn text-white bg-amber-950 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0">Estou pronto!</p>
+                  <p className="btn text-white hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0" style={{ backgroundColor: '#342720' }}>Estou pronto!</p>
                 </Link>
                 </div>
               </div>
@@ -39,8 +40,8 @@ export default function Hero() {
           </div>
 
         </div>
-
       </div>
+      <Footer />
     </section>
   )
 }

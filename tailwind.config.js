@@ -39,7 +39,7 @@ export const theme = {
         700: '#2C7A7B',
         800: '#285E61',
         900: '#234E52',
-      },
+      }
     },
     boxShadow: {
       xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',

@@ -20,27 +20,27 @@ export default function Header() {
   }, [top]);
 
   return (
-    <header className='fixed w-full z-30 transition duration-300 ease-in-out bg-amber-950'>
+    <header className='fixed w-full z-30 transition duration-300 ease-in-out' style={{ backgroundColor: '#342720' }}>
       <div className='max-w-6xl mx-auto px-5 sm:px-6'>
         <div className='flex items-center justify-between h-12 md:h-50'>
           <div className='shrink-0 mr-4'>
             <a
               href='/'
-              className='text-white text-xl font-bold py-1 px-2 rounded hover:bg-orange-800 transition duration-300 ease-in-out'
+              className='text-white text-xl font-bold py-1 px-2 rounded hover:bg-amber-950 transition duration-300 ease-in-out'
             >
               museU online
             </a>
           </div>
           <Link href="/report">
           <div className='shrink-0 mr-4'>
-            <button className='text-white hover:bg-orange-800 p-2 rounded transition duration-300 ease-in-out'>
+            <button className='text-white hover:bg-amber-950 p-2 rounded transition duration-300 ease-in-out'>
               <AdjustmentsHorizontalIcon className='h-6 w-6' />
             </button>
           </div>
           </Link>
         </div>
       </div>
-      <div className='bg-orange-900 h-3 w-full'></div>
+      <div className='h-3 w-full' style={{ backgroundColor: '#42322A' }}></div>
     </header>
   );
 }
