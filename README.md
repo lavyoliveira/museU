@@ -10,8 +10,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Front-end da página principal
 - [x] Front-end das obras
 - [x] Front-end do relatório adhoc
-- [ ] Back-end das obras
-- [ ] Back-end dos filtros do relatório
+- [x] Back-end das obras
+- [x] Back-end dos filtros do relatório
 
 ## 💻 Pré-requisitos
 
