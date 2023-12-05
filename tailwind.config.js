@@ -120,6 +120,28 @@ export const theme = {
         '0%, 100%': { transform: 'translateY(0)', },
         '50%': { transform: 'translateY(-5%)', },
       },
+      curtain_open_left: {
+        '0%': { width: '50%', },
+        '100%': { width: '0%', },
+      },
+      curtain_close_left: {
+        '0%': { width: '0%', },
+        '100%': { width: '50%', },
+      },
+      curtain_open_right: {
+        '0%': { width: '50%', },
+        '100%': { width: '0%', },
+      },
+      curtain_close_right: {
+        '0%': { width: '0%', },
+        '100%': { width: '50%', },
+      },
+    },
+    animation: {
+      'curtain_open_left': 'curtain_open_left 1s ease-in-out 1s forwards',
+      'curtain_close_left': 'curtain_close_left 1s ease-in-out forwards',
+      'curtain_open_right': 'curtain_open_right 1s ease-in-out 1s forwards',
+      'curtain_close_right': 'curtain_close_right 1s ease-in-out forwards',
     },
     zIndex: {
       '-1': '-1',
